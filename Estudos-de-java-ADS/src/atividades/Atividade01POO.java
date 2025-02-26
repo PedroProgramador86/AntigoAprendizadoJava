@@ -1,3 +1,6 @@
+//Atividade do Classroom (Trabalho de POO 1 (AP1))
+//Status: Não Resolvido12
+
 import java.util.Scanner;
 public class Atividade01POO{
     public static void main (String[]args){
