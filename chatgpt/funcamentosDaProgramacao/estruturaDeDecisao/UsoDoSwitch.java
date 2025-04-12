@@ -63,3 +63,5 @@ public class UsoDoSwitch {
     }
 
 }
+
+// Analisador de casos de uma variavel
