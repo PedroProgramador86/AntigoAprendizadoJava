@@ -1,4 +1,4 @@
-package chatgpt.funcamentosDaProgramacao;
+package chatgpt.funcamentosDaProgramacao.estruturaDeDecisao;
 
 public class UsoDoSwitch {
     public static void main (String[]args){
