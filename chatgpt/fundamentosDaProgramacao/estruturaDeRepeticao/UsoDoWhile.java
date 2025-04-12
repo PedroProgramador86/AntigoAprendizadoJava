@@ -1,4 +1,4 @@
-package chatgpt.funcamentosDaProgramacao.estruturaDeRepeticao;
+package chatgpt.fundamentosDaProgramacao.estruturaDeRepeticao;
 
 public class UsoDoWhile {
 

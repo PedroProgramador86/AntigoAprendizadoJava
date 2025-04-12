@@ -1,4 +1,4 @@
-package chatgpt.funcamentosDaProgramacao.estruturaDeRepeticao;
+package chatgpt.fundamentosDaProgramacao.estruturaDeRepeticao;
 
 public class UsoDoFor_Each {
     public static void main (String[]args){
