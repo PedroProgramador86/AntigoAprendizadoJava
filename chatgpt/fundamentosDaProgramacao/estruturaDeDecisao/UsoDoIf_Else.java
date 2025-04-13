@@ -3,7 +3,7 @@ package chatgpt.fundamentosDaProgramacao.estruturaDeDecisao;
 public class UsoDoIf_Else{
     public static void main (String[]args){
 
-        float nota = 6.2f; // Valor flutuante considerado como double. Por isso add o "f"
+        float nota = 6.2f; // Valor flutuante considerado como double. Por isso adicionar o "f"
                            // frente do valor
 
         if (nota >= 7.0){

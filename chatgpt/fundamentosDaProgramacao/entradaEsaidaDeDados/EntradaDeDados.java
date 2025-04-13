@@ -14,6 +14,7 @@ public class EntradaDeDados {
     public static void main (String[]args){
 
         // Modelo de criar um objeto do scanner:
+        //
         // Scanner nomeQueVaiSerDadoAoScanner = new Scanner(System.in);
         //                                                      ^
         //                                         Aqui fala que o scanner vai receber
@@ -24,11 +25,12 @@ public class EntradaDeDados {
 
         // Para de fato receber os dados, você precisa armazena-los em uma variavel (Criar uma variavel)
         // Depois atribuir a mensão do nome que foi dado ao Scanner na hora de criar o objeto (teclado)
-        // E por fim adicionar uma função do proprio Scanner que faz a leitura da proxima linha 
+        // E por fim adicionar uma função do proprio Scanner que faz a leitura
+        // 
         // Essa leitura vai variar dependendo do tipo:
         // 
         // String    ->   nextLine();
-        // ini       ->   nextInt();          ->        Obs: nextInt() não consome quebra de linha,
+        // int       ->   nextInt();          ->        Obs: nextInt() não consome quebra de linha,
         // double    ->   nextDouble();                 por isso quando for utilizar um nextInt() antes
         // float     ->   nextFloat();                  de um nextLine()... é sempre bom colocar um
         // boolean   ->   nextBoolean();                nextInt() antes, para ele consumir a linha do
