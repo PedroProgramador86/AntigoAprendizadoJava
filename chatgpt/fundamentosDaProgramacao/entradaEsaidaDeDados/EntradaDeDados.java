@@ -72,6 +72,8 @@ public class EntradaDeDados {
         System.out.println("Booleano "+ vORf);
         System.out.println("Sexo: "+ sexo);
 
+        teclado.close(); //Fecha o Scanner
+
     }
     
 }
