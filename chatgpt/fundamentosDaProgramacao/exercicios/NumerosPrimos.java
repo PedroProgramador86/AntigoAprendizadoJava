@@ -5,14 +5,17 @@ import java.util.Scanner;
 // Escreva um programa que verifique se um número informado pelo usuário é primo.
 
 
+// Erro se digitar 4;
+
+
 public class NumerosPrimos{
 
     public static boolean verificaNumeroPrimo(int numero){
 
         int primo = 0;
-        boolean he_primo;
+        boolean he_primo = true;
 
-        for( int i=13 ; i<=numero ; i++ ){
+        for( int i=2 ; i<=numero ; i++ ){
 
             if(numero % i == 0){
 
@@ -25,13 +28,6 @@ public class NumerosPrimos{
         if(primo > 2){
 
             he_primo = false;
-
-        }
-
-        else{
-
-            he_primo = true;
-            
 
         }
 
