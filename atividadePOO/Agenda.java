@@ -1,22 +1,33 @@
 package atividadePOO;
 
+import java.util.*;
+
 public class Agenda {
+    private List<Contato> contatos = new ArrayList<>();
 
-    int opcaoDoUser;
+    public void adicionarContato(Contato contato) {
+        contatos.add(contato);
+    }
 
-    Contato adicionarContatoAgenda = new Contato(opcaoDoUser);
-    adicionarContatoAgenda.inserirNome();
+    public void removerContato(String nome) {
+        contatos.removeIf(c -> c.getNome().equalsIgnoreCase(nome));
+    }
 
-    //public void listarContatos () { // Função de listar contatos:
+    public List<Contato> buscarContatos(String termo) {
+        List<Contato> resultados = new ArrayList<>();
+        for (Contato c : contatos) {
+            if (c.getNome().equalsIgnoreCase(termo) ||
+                c.getTelefone().equalsIgnoreCase(termo) ||
+                c.getEmail().equalsIgnoreCase(termo)) {
+                resultados.add(c);
+            }
+        }
+        return resultados;
+    }
 
-        // Pegar objeto da classe contato
-
-    //}
-
-    public Agenda (int opcaoDoUser) {// Construtor
-    
-        this.opcaoDoUser = opcaoDoUser;
-
-    }    
-
+    public void listarContatos() {
+        for (Contato c : contatos) {
+            System.out.println(c.getDetalhes());
+        }
+    }
 }
