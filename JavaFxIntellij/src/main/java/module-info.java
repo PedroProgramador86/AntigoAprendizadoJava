@@ -1,4 +1,4 @@
-module com.example.monihealph {
+module com.example.javafxintellij {
     requires javafx.controls;
     requires javafx.fxml;
     requires javafx.web;
@@ -11,6 +11,6 @@ module com.example.monihealph {
     requires eu.hansolo.tilesfx;
     requires com.almasb.fxgl.all;
 
-    opens com.example.monihealph to javafx.fxml;
-    exports com.example.monihealph;
+    opens com.example.javafxintellij to javafx.fxml;
+    exports com.example.javafxintellij;
 }
