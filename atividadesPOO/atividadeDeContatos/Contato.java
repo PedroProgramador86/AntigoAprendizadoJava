@@ -1,4 +1,4 @@
-package atividadePOO;
+package atividadesPOO.atividadeDeContatos;
 
 public class Contato {
 
@@ -33,6 +33,8 @@ public class Contato {
         return email; 
     
     }
+
+    // Retornando supostos valores que serão mencionados
 
     public String getDetalhes() {
         return "Nome: " + nome + ", Telefone: " + telefone + ", Email: " + email;

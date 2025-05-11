@@ -4,11 +4,10 @@ import javafx.application.Application; // Importa a classe pai (Application) do 
 import javafx.scene.Group; // Importa a classe Group para conseguir fazer "nós"
 import javafx.scene.Scene; // Importa a classe Scene para fazer a criação de cenas no javaFX
 import javafx.scene.image.Image;
-import javafx.scene.input.KeyCombination;
 import javafx.scene.paint.Color; // Importando a classe de cores que serão utilizadas
 import javafx.stage.Stage; // Importa a classe stage, que representa a janela principal
 
-public class Main extends Application{
+public class Apresentacao extends Application{
 
 
     public static void main(String[] args) {

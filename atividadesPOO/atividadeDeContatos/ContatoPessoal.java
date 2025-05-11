@@ -1,4 +1,4 @@
-package atividadePOO;
+package atividadesPOO.atividadeDeContatos;
 
 public class ContatoPessoal extends Contato {
     private String aniversario;

@@ -1,4 +1,4 @@
-package atividadePOO;
+package atividadesPOO.atividadeDeContatos;
 
 import java.util.*;
 
